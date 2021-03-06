@@ -187,32 +187,32 @@ Full list of command line options:
 ### Examples
 * **ETH+ZIL-shardpool**</br>
 ```
-t-rex -a ethash -o stratum+tcp://eu1-zil.shardpool.io:3333 -u 0x1f75eccd8fbddf057495b96669ac15f8e296c2cd -p zil1yn92lnkkfsn0s2hlvfdmz6y2yhpqm98vng38s9@eu1.ethermine.org:4444 -w rig0 --extra-dag-epoch 0
+t-rex -a ethash -o stratum+tcp://eu1-zil.shardpool.io:3333 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b -p zil1yn92lnkkfsn0s2hlvfdmz6y2yhpqm98vng38s9@eu1.ethermine.org:4444 -w rig0 --extra-dag-epoch 0
 ```
 
 * **ETC-2miners**</br>
 ```
-t-rex -a etchash -o stratum+tcp://etc.2miners.com:1010 -u 0x1f75eccd8fbddf057495b96669ac15f8e296c2cd -p x -w rig0
+t-rex -a etchash -o stratum+tcp://etc.2miners.com:1010 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b -p x -w rig0
 ```
 
 * **ETC-woolypooly**</br>
 ```
-t-rex -a etchash -o stratum+tcp://etc.woolypooly.com:35000 -u 0x1f75eccd8fbddf057495b96669ac15f8e296c2cd -p x -w rig0
+t-rex -a etchash -o stratum+tcp://etc.woolypooly.com:35000 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b -p x -w rig0
 ```
 
 * **ETH-2miners**</br>
 ```
-t-rex -a ethash -o stratum+tcp://eth.2miners.com:2020 -u 0x1f75eccd8fbddf057495b96669ac15f8e296c2cd -p x -w rig0
+t-rex -a ethash -o stratum+tcp://eth.2miners.com:2020 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b -p x -w rig0
 ```
 
 * **ETH-nanopool**</br>
 ```
-t-rex -a ethash -o stratum+tcp://eth-eu1.nanopool.org:9999 -u 0x1f75eccd8fbddf057495b96669ac15f8e296c2cd.rig0/some@email.org -p x
+t-rex -a ethash -o stratum+tcp://eth-eu1.nanopool.org:9999 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b.rig0/some@email.org -p x
 ```
 
 * **ETH-ethermine**</br>
 ```
-t-rex -a ethash -o stratum+tcp://eu1.ethermine.org:4444 -u 0x1f75eccd8fbddf057495b96669ac15f8e296c2cd -p x -w rig0
+t-rex -a ethash -o stratum+tcp://eu1.ethermine.org:4444 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b -p x -w rig0
 ```
 
 * **ETH-miningpoolhub**</br>
@@ -227,32 +227,32 @@ t-rex -a ethash -o stratum+tcp://eu-ru01.miningrigrentals.com:3344 -u wasya89.16
 
 * **ETH-woolypooly**</br>
 ```
-t-rex -a ethash -o stratum+tcp://eth.woolypooly.com:3096 -u 0x1f75eccd8fbddf057495b96669ac15f8e296c2cd -p x -w rig0
+t-rex -a ethash -o stratum+tcp://eth.woolypooly.com:3096 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b -p x -w rig0
 ```
 
 * **CFX-woolypooly**</br>
 ```
-t-rex -a octopus -o stratum+tcp://cfx.woolypooly.com:3094 -u 0x100851451584c1e808fde4a2d077dd81129b2555.rig0 -p x
+t-rex -a octopus -o stratum+tcp://cfx.woolypooly.com:3094 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b.rig0 -p x
 ```
 
 * **CFX-nanopool**</br>
 ```
-t-rex -a octopus -o stratum+tcp://cfx-eu1.nanopool.org:17777 -u 0x100851451584c1e808fde4a2d077dd81129b2555.rig0/some@email.org -p x
+t-rex -a octopus -o stratum+tcp://cfx-eu1.nanopool.org:17777 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b.rig0/some@email.org -p x
 ```
 
 * **RVN-2miners**</br>
 ```
-t-rex -a kawpow -o stratum+tcp://rvn.2miners.com:6060 -u RBX1G6nYDMHVtyaZiQWySMZw1Bb2DEDpT8.rig -p x
+t-rex -a kawpow -o stratum+tcp://rvn.2miners.com:6060 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b.rig -p x
 ```
 
 * **RVN-ravenminer**</br>
 ```
-t-rex -a kawpow -o stratum+tcp://stratum.ravenminer.com:3838 -u RBX1G6nYDMHVtyaZiQWySMZw1Bb2DEDpT8.rig -p x
+t-rex -a kawpow -o stratum+tcp://stratum.ravenminer.com:3838 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b.rig -p x
 ```
 
 * **RVN-woolypooly**</br>
 ```
-t-rex -a kawpow -o stratum+tcp://rvn.woolypooly.com:55555 -u RBX1G6nYDMHVtyaZiQWySMZw1Bb2DEDpT8.rig -p x
+t-rex -a kawpow -o stratum+tcp://rvn.woolypooly.com:55555 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b.rig -p x
 ```
 
 * **SERO-woolypooly**</br>
@@ -262,22 +262,22 @@ t-rex -a progpow --coin sero -o stratum+tcp://sero.woolypooly.com:8008 -u JCbZnE
 
 * **VEIL-woolypooly**</br>
 ```
-t-rex -a progpow-veil -o stratum+tcp://veil.woolypooly.com:3098 -u bv1qzftz0vuqa82zy29avylv8sclskweqsrwysgrkg -p x -w rig0
+t-rex -a progpow-veil -o stratum+tcp://veil.woolypooly.com:3098 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b -p x -w rig0
 ```
 
 * **XZC-2miners**</br>
 ```
-t-rex -a mtp -o stratum+tcp://xzc.2miners.com:8080 -u aBR3GY8eBKvEwjrVgNgSWZsteJPpFDqm6U.rig0 -p x
+t-rex -a mtp -o stratum+tcp://xzc.2miners.com:8080 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b.rig0 -p x
 ```
 
 * **XZC-mintpond**</br>
 ```
-t-rex -a mtp -o stratum+ssl://zcoin.mintpond.com:3005 -u aBR3GY8eBKvEwjrVgNgSWZsteJPpFDqm6U.rig0 -p x
+t-rex -a mtp -o stratum+ssl://zcoin.mintpond.com:3005 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b.rig0 -p x
 ```
 
 * **XZC-woolypooly**</br>
 ```
-t-rex -a mtp -o stratum+tcp://zcoin.woolypooly.com:3080 -u aBR3GY8eBKvEwjrVgNgSWZsteJPpFDqm6U.rig0 -p x
+t-rex -a mtp -o stratum+tcp://zcoin.woolypooly.com:3080 -u 0xa99c57bac2159bc2472e7cb3eb5ebc870d4da23b.rig0 -p x
 ```
 
 
